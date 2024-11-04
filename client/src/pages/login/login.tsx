@@ -4,6 +4,7 @@ import React, { useRef, useState } from 'react';
 import { CreateExport } from '../../helpers/Export';
 import { getPayloadAsJson, tokenExists } from '../../helpers/Token';
 import { PageProps } from '../../@types/app';
+import {Buffer} from 'buffer';
 
 function Login(props: PageProps) {
     const [isAuthError, setIsAuthError] = useState(false);

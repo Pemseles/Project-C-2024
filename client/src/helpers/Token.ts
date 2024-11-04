@@ -1,4 +1,5 @@
 import { Payload } from "../@types/token";
+import {Buffer} from 'buffer';
 
 export const getToken = (): string | undefined => {
     try {

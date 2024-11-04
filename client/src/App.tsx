@@ -8,6 +8,7 @@ import fotolibraryPagina from './pages/fotolibrary-pagina/fotolibrary-pagina';
 import { ICreateObject } from './@types/app';
 import { getToken } from './helpers/Token';
 import ErrorPage from './components/ErrorPage';
+import {Buffer} from 'buffer';
 
 const pages: Array<ICreateObject> = [
     LoginPage,
